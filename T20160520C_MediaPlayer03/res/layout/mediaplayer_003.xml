@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MediaPlayer_003"
+    android:orientation="horizontal" >
+<Button 
+    android:id="@+id/mdaolayer001"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="1.开始播放"
+    />
+<Button 
+    android:id="@+id/mdaolayer002"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="2.开始播放"
+    />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- android:actionViewClass属性指定Action View的实现类 -->
+    <!-- android:actionLayout属性指定Action View 对应的视图资源 -->
+    <item
+        android:id="@+id/search"
+        android:actionViewClass="android.widget.SearchView"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/progress"
+        android:actionLayout="@layout/actionview001"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/action_settings"/>
+
+</menu>

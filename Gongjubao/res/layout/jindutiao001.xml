@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <ProgressBar 
+        android:id="@+id/pgs1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar.Small.Inverse"
+        />
+    
+    <!-- 进度条最大值：max
+    		当前进度：progress
+    		次要进度：secondaryProgress
+     -->
+    <ProgressBar 
+        android:id="@+id/pgs2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:max="100"
+        />
+    <ProgressBar 
+        android:id="@+id/pgs2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:max="100"
+        android:secondaryProgress="70"
+        />
+    
+     <ProgressBar 
+        android:id="@+id/pgs3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar.Large"
+        />
+     <ProgressBar 
+        android:id="@+id/pgs4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:progressDrawable="@drawable/jindutiaobeijing001"
+        />
+     <Button 
+         android:id="@+id/jdtks"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="开始"
+         />
+
+</LinearLayout>

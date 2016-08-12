@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/beijinga">
+      <Button
+        android:id="@+id/gridviewbtn001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_marginTop="10dp"
+        android:text="GridView：网络视图"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/spinnerbtn002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_marginTop="10dp"
+        android:text="Spinner的功能与用法"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/spinnerbtn003"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_marginTop="10dp"
+        android:text="Spinner的功能与用法2"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/spinnerbtn004"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_marginTop="10dp"
+        android:text="Spinner的功能与用法3"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/gallerybtn005"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_marginTop="10dp"
+        android:text="Gallery：画廊视图"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/tabhstbtn006"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_marginTop="10dp"
+        android:text="TabHost:选项卡"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/scrollviewbtn007"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_marginTop="10dp"
+        android:text="ScrollView:滚动视图"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/notifibtn008"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_marginTop="10dp"
+        android:text="Notification的功能与用法"
+        android:textSize="22sp" />
+
+ 
+      <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第四页"
+            android:textSize="20dp" 
+            android:textColor="#0f0"/>
+
+        <Button
+            android:id="@+id/cjjmxyy009"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+       		android:layout_marginLeft="80dp"
+            android:background="@drawable/anjian01"
+            android:text="下一页"
+            android:textSize="22sp" />
+    </LinearLayout>
+    
+
+</LinearLayout>

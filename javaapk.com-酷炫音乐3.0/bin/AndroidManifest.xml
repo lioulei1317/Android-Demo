@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.com.tarena.coreandroid.d0901"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+   <uses-permission android:name="android.permission.RECORD_AUDIO" />
+<application
+        android:name=".application.PlayMusicApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="cn.com.tarena.coreandroid.d0901.MainActivity"
+            android:label="@string/app_name"
+              android:theme="@android:style/Theme.Translucent" 
+              android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        
+        <service android:name=".service.PlayMusicService" >
+            <intent-filter>
+                <action android:name="tarena.intent.action.START_PLAY_SERVICE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <receiver android:name=".widget.PlayMusicWidget">
+             <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:resource="@xml/play_music_widget_provider" 
+                android:name="android.appwidget.provider"/>
+            
+            
+        </receiver>
+    </application>
+
+</manifest>

@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MusicListActivity" >
+
+    <RelativeLayout
+        android:id="@+id/head"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#009E73"
+        android:paddingBottom="5dip"
+        android:paddingLeft="10dip"
+        android:paddingTop="5dip" >
+
+        <ImageView
+            android:id="@+id/jia"
+            android:layout_width="wrap_content"
+            android:layout_height="18dip"
+            android:layout_centerVertical="true"
+            android:onClick="back"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@+id/jia"
+            android:text="歌曲列表"
+            android:textColor="#FFF"
+            android:textSize="20dip" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="fill_parent"
+        android:layout_height="150dip"
+        android:layout_below="@+id/head"
+        android:scaleType="centerCrop"
+        android:src="@drawable/post" />
+
+    <ListView
+        android:id="@+id/lvSongs"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:cacheColorHint="#88000000" >
+    </ListView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:layout_weight="0.36"
+        android:background="#009E73" >
+
+        <Button
+            android:id="@+id/btnDetail"
+            android:layout_width="48dip"
+            android:layout_height="48dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="0dip"
+            android:background="@drawable/iuni" />
+
+        <SeekBar
+            android:id="@+id/pbDuration"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="17dip"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="3dip"
+            android:layout_marginTop="3dip"
+            android:layout_toRightOf="@+id/btnDetail"
+            android:maxHeight="1dip"
+            android:minHeight="1dip"
+            android:progressDrawable="@drawable/progress_style"
+            android:thumb="@drawable/check_box_checked"
+            android:thumbOffset="0dip" />
+
+        <TextView
+            android:id="@+id/tvCurrentMusic"
+            android:layout_width="180dip"
+            android:layout_height="32dip"
+            android:layout_alignBaseline="@+id/btnNext"
+            android:layout_marginLeft="12dip"
+            android:layout_toRightOf="@+id/btnDetail"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:singleLine="true"
+            android:textColor="#FFF" />
+
+        <Button
+            android:id="@+id/btnStartStop"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:layout_alignBaseline="@+id/btnNext"
+            android:layout_below="@+id/pbDuration"
+            android:layout_marginRight="5dip"
+            android:layout_toLeftOf="@+id/btnNext"
+            android:background="@drawable/bofang" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/pbDuration"
+            android:layout_marginRight="20dip"
+            android:background="@drawable/next_icon" />
+    </RelativeLayout>
+
+</LinearLayout>

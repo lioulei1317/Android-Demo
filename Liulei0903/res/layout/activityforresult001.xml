@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请填写您的地址" />
+
+    <EditText
+        android:id="@+id/activityforett001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:hint="请填写您的地址" />
+
+    <Button
+        android:id="@+id/activityforbtn001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选择城市" />
+
+</LinearLayout>

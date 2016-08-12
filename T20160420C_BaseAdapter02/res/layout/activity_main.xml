@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button 
+        android:id="@+id/bn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click"
+        />
+
+    <ListView 
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bn1"
+        android:background="@android:color/darker_gray"
+        android:divider="#f00"
+        android:dividerHeight="2dp"
+        android:scrollbars="none"
+        />
+    <TextView 
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bn1"
+        android:text="我还没有数据！"
+        android:visibility="gone"
+        />
+</RelativeLayout>

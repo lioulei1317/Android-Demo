@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/beijinga" >
+    
+    <Button
+        android:id="@+id/listvbtn001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_marginTop="10dp"
+        android:text="使用ArrayAdapter创建ListView"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/listvbtn002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_marginTop="10dp"
+        android:text="基于ListActivity实现列表"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/cjlistviewbtn001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_marginTop="10dp"
+        android:text="使用SimpleAdapter创建ListView"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/cjlistviewbtn002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_marginTop="10dp"
+        android:text="使用SimpleAdapter创建ListView2"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/beseadapterbtn001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_marginTop="10dp"
+        android:text="BaseAdapter1"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/baseadapterbtn002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_marginTop="10dp"
+        android:text="BaseAdapter2;(隐藏项规律)"
+        android:textSize="22sp" />
+    <Button
+        android:id="@+id/baseadapterbtn005"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_marginTop="10dp"
+        android:text="BaseAdapter3:实现不同格式的列表"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/listviewadapterbtn001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_marginTop="10dp"
+        android:text="ListViewAdapter：小项目1"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/auotobtn001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_marginTop="10dp"
+        android:text="AutoCompleteTextView:自动完成文本框"
+        android:textSize="20sp" />
+
+    
+      <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第三页"
+            android:textSize="20dp" 
+            android:textColor="#0f0"/>
+
+        <Button
+            android:id="@+id/cjmxyy04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+       		android:layout_marginLeft="80dp"
+            android:background="@drawable/anjian01"
+            android:text="下一页"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,146 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/tou"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/kong"
+        android:paddingTop="10dip" >
+
+        <TextView
+            android:id="@+id/mymusic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:onClick="my"
+            android:text="我的音乐"
+            android:textColor="#000"
+            android:textSize="20dip" />
+
+        <TextView
+            android:id="@+id/findmusic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/mymusic"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@+id/mymusic"
+            android:onClick="find"
+            android:text="发现音乐"
+            android:textColor="#000" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/datu"
+        android:layout_width="wrap_content"
+        android:layout_height="180dip"
+        android:layout_below="@+id/tou"
+        android:background="#FFF" >
+
+        <ImageView
+            android:id="@+id/tu"
+            android:layout_width="wrap_content"
+            android:layout_height="180dip"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tupian" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="67dip"
+            android:layout_height="67dip"
+            android:layout_alignTop="@+id/imageView3"
+            android:layout_centerHorizontal="true"
+            android:onClick="tu2" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="67dip"
+            android:layout_height="67dip"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginRight="40dp"
+            android:onClick="tu3" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="67dip"
+            android:layout_height="67dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="42dp"
+            android:onClick="tu1" />
+    </RelativeLayout>
+
+    <!-- 新建歌单以下star -->
+
+    <ImageView
+        android:id="@+id/xinjian"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_below="@+id/datu"
+        android:scaleType="centerCrop"
+        android:src="@drawable/xinjian" />
+
+    <View
+        android:id="@+id/v1"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_below="@+id/xinjian" />
+
+    <ImageView
+        android:id="@+id/like"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_below="@+id/v1"
+        android:onClick="addMusic"
+        android:scaleType="centerCrop"
+        android:src="@drawable/like" />
+
+    <View
+        android:id="@+id/v2"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_below="@+id/like" />
+
+    <ImageView
+        android:id="@+id/addd"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_below="@+id/v2"
+        android:onClick="addMusic"
+        android:scaleType="centerCrop"
+        android:src="@drawable/add" />
+
+    <View
+        android:id="@+id/v3"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_below="@+id/addd" />
+
+    <ImageView
+        android:id="@+id/download"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_below="@+id/v3"
+        android:scaleType="centerCrop"
+        android:src="@drawable/download" />
+
+    <View
+        android:id="@+id/v4"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_below="@+id/download" />
+
+    <ImageView
+        android:id="@+id/shoucang"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_below="@+id/v4"
+        android:onClick="shoucang"
+        android:scaleType="centerCrop"
+        android:src="@drawable/shoucang" />
+    <!-- end -->
+
+</RelativeLayout>

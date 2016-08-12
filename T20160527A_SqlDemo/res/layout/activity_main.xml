@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/EdiTextword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/EdiTextdetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="2" />
+
+    <Button
+        android:id="@+id/Btninsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加生词" />
+
+    <EditText
+        android:id="@+id/EdiTextkey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button 
+        android:id="@+id/Btnsearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查找"
+        />
+    <ListView 
+        android:id="@+id/ListViewshow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></ListView>
+
+</LinearLayout>

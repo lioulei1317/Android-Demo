@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beijinga"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/datePickerbtn001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="DatePickerDialog:日期选择对话框"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/ActionBarbtn002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="ActionBar:使用活动条1(隐藏标题)"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/ActionBarbtn003"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="ActionBar:使用活动条2(添加标题图)"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/ActionHomebtn004"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="ActionHome：标题返回"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/ActionViewbtn005"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="ActionView:标题上的时钟"
+        android:textSize="22sp" />
+ 
+      <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第六页"
+            android:textSize="20dp" 
+            android:textColor="#0f0"/>
+
+    </LinearLayout>
+
+</LinearLayout>

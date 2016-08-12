@@ -1,0 +1,159 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tianqi"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="省份：" />
+
+        <EditText
+            android:id="@+id/shengEdittexe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入省"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="城市：" />
+
+        <EditText
+            android:id="@+id/shiEdittexe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入市"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="天气情况:" />
+
+    <TextView
+        android:id="@+id/jintiantqqktext01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="50dp"
+        android:text="情况" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="50dp"
+        android:text="日期:" />
+
+    <TextView
+        android:id="@+id/riqitext02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="50dp"
+        android:text="日期" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="80dp"
+        android:text="温度:" />
+
+    <TextView
+        android:id="@+id/wendutext03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="80dp"
+        android:text="温度" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:text="湿度:" />
+
+    <TextView
+        android:id="@+id/shidutext04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="100dp"
+        android:text="湿度" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="130dp"
+        android:text="风向:" />
+
+    <TextView
+        android:id="@+id/fengxiangtext05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="130dp"
+        android:text="风向" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="160dp"
+        android:text="穿衣指数:" />
+
+    <TextView
+        android:id="@+id/chuangyitext06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="160dp"
+        android:text="穿衣指数" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="190dp"
+        android:text="运动指数:" />
+
+    <TextView
+        android:id="@+id/yundongtext07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="190dp"
+        android:text="运动指数" />
+
+    <TextView
+        android:id="@+id/weilaitext08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="220dp"
+        android:text="未来" />
+
+    <Button
+        android:id="@+id/_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:text="确定" />
+
+</RelativeLayout>

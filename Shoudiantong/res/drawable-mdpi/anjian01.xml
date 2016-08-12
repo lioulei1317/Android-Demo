@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 指定圆角矩形的4个圆角半径 -->
+    <corners
+        android:bottomLeftRadius="1200px"
+        android:bottomRightRadius="1200px"
+        android:topLeftRadius="1200px"
+        android:topRightRadius="1200px" />
+    <!-- 指定边框的颜色和宽度 -->
+    <stroke
+        android:width="5dp"
+        android:color="#d0d0d0" />
+    <!-- 透明度 -->
+    <solid android:color="#90F0F0F0" />
+
+</shape>

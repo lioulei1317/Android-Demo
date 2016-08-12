@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <Button 
+        android:id="@+id/jisuanq001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/jisuanqi"
+        android:textSize="22dp"
+        />
+      <Button 
+        android:id="@+id/denglujiemian002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/denglujiemian"
+        android:textSize="22dp"
+        />
+      <Button 
+        android:id="@+id/jianpan002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="电脑数字键盘"
+        android:textSize="22dp"
+        />
+      <Button 
+        android:id="@+id/fanhui003"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/fanhui003"
+        android:textSize="22dp"
+        />
+    
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    
+    <Button
+        android:id="@+id/buttonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:text="用户A" />
+    <Button
+        android:id="@+id/buttonId2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/buttonId"
+        android:text="用户B" />
+    <Button
+        android:id="@+id/buttonId3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/buttonId2"
+        android:text="用户C" />
+
+    <ListView
+        android:id="@+id/listViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="3dp"
+        android:scrollbars="none" 
+        android:layout_below="@id/buttonId"
+        >
+    </ListView>
+	<!-- visibility 此view是否显示
+	XML文件：android:visibility="visible"      可见（visible)
+	Java代码：view.setVisibility(View.VISIBLE);
+	XML文件：android:visibility="invisible"    不可见（invisible）
+	Java代码：view.setVisibility(View.INVISIBLE);
+	XML文件：android:visibility="gone"         隐藏（GONE）
+	Java代码：view.setVisibility(View.GONE);
+      -->
+    <TextView
+        android:id="@+id/tv_emt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonId"
+        android:text="还没有数据！请按按钮提交数据"
+        android:visibility="gone"
+         />
+
+</RelativeLayout>

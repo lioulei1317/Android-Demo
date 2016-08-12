@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yindaoye3"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/yindaoyebtn001"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/anjian01"
+        android:onClick="start"
+        android:text="进入"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

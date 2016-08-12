@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+   <Button 
+        android:id="@+id/bn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="文本的提示框"
+        />
+    <Button 
+        android:id="@+id/bn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bn1"
+        android:text="带图片的提示框"
+        />
+</RelativeLayout>

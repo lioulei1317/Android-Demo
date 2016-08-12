@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shoudiantong"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+	<!-- 允许应用程序访问摄像头 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- 允许应用程序访问闪光灯 -->
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <!-- < uses-feature > 元素的声明仅仅是告知性质的，
+           这意味着 Android 系统本身不会在安装程序前检查设备是否支持这些特性。
+           不过，其他服务（如 Google Play ）或者其他应用程序可以检查 < uses-feature >
+           声明来进行相应处理或与本应用程序进行交互。
+           因此，对需要用到的所有特性都进行声明（如下表所示）是非常重要的。 -->
+    <!-- 注意 
+           权限申请使得应用程序有权访问相应的软、硬件，
+           而声明需要用到的特性可以保证合适的设备兼容性。 -->
+    <!--  指定需要摄像头硬件/软件 -->
+    <uses-feature android:name="android.hardware.camera" />
+    <!-- 自动对焦 -->
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <!-- 闪光灯 -->
+    <uses-feature android:name="android.hardware.camera.flash" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="手电筒"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.shoudiantong.MainActivity"
+            android:label="手机电筒" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

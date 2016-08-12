@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="用户名"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/t1" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/t1"
+        android:layout_below="@id/t1"
+        android:text="密码"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/t2"
+        android:layout_toRightOf="@id/t2" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/t2"
+        android:layout_below="@id/t2"
+        android:text="登录" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t2"
+        android:layout_toRightOf="@id/b1"
+        android:text="取消" />
+
+</RelativeLayout>

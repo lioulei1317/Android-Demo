@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- centerHorizontal水平中间 -->
+    <!-- centerVertical垂直中间 -->
+    <!-- background背景颜色 -->
+    <!-- textColor字体颜色 -->
+    <!-- textSize字体大小 -->
+    <!-- layout_margin外边距 -->
+    <!-- below在id下面、toRightOf在id右边 -->
+    <!-- alignBaseline与id的中线对齐 -->
+    <!-- ems编辑框输入字符限制 -->
+
+    <Button
+        android:id="@+id/xdbjdlbun0001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/dengluxitong"
+        android:textSize="22sp" />
+    <Button
+        android:id="@+id/xdbjjpbtn0001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:text="电脑数字键盘"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/xdbjsyybun0001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:text="@string/zjmshangyiye1"
+        android:textSize="22sp" />
+
+</RelativeLayout>

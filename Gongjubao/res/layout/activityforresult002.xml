@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/activityforbtn003"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确定" />
+
+    <EditText
+        android:id="@+id/activityforett004"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="填写你喜欢的城市" />
+
+</LinearLayout>

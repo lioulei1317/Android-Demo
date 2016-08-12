@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <!-- paddingBottom、paddingLeft、paddingRight、paddingTop设置页面边距 -->
+    <!-- TextView 文本框 -->
+    <!-- EditText 编辑框 -->
+    <!-- width和height控制文本框宽和高 自己设值为：100dp -->
+    <!-- wrap_content包裹文字自身大小 -->
+    <!-- match_parent占满界面空间 -->
+    <!-- textSize控制文字大小 18sp -->
+    <!-- LinearLayout线性布局  orientation    布局排列   ：水平排列和垂直排列 horizontal vertical -->
+    <!-- Button按键 -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yonghuming"
+        android:textSize="22sp" />
+
+    <EditText
+         android:id="@+id/ed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yonghumima"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login" />
+    <Button
+        android:id="@+id/fanhuiecjm0001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fanhui003" />
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <!-- android:completionHint="选择联系人"  设置下拉菜单的提示标题-->
+<!-- android:completionThreshold="1"    设置用户输入多少个字符才会出现提示 -->
+<!--  android:dropDownVerticalOffset="10dp" 设置下拉带单和文本框偏移多少 -->
+    <AutoCompleteTextView 
+        android:id="@+id/auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionHint="选择联系人"
+        android:completionThreshold="1"
+        android:dropDownVerticalOffset="10dp"
+        />
+    <MultiAutoCompleteTextView 
+        android:id="@+id/mauto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/auto"
+        android:completionThreshold="1"
+        />
+
+</RelativeLayout>

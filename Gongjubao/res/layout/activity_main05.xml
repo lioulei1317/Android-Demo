@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beijinga"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/hoverbtn001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="HoverDialog对话框"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/progressdlgbtn002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="ProgressDialog:进度对话框"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/menubtn003"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="OptionsMenu：选项菜单"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/menubtn004"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="ContextMenu:上下文菜单1"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/contextmenubtn005"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="ContextMenu:上下文菜单2"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/menubtn006"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="SubMenu:子菜单(代码添加)"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/menubtn007"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="SubMenu:子菜单(xml布局)"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/alertdialogbtn008"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="AlertDialog:对话框"
+        android:textSize="22sp" />
+
+   
+      <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第五页"
+            android:textSize="20dp" 
+            android:textColor="#0f0"/>
+
+        <Button
+            android:id="@+id/xyyactivity09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+       		android:layout_marginLeft="80dp"
+            android:background="@drawable/anjian01"
+            android:text="下一页"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+</LinearLayout>

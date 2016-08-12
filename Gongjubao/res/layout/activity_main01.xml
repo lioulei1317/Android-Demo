@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beijinga"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/xxbjbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="@string/xianxingbuju"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/xdbjbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="@string/xiangduibuju"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/zbjbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="@string/zhengbuju"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/bgbjbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="@string/biaogebuju"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/jdbjbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="@string/jueduibuju"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/dxanbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="RadioButten:单选按钮"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/fxanbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="CheckBox:复选框"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/pmdbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="跑马灯及在文本框中插入图片"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第一页"
+            android:textSize="20dp" 
+            android:textColor="#0f0"/>
+
+        <Button
+            android:id="@+id/cjmxyy01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+       		android:layout_marginLeft="80dp"
+            android:background="@drawable/anjian01"
+            android:text="下一页"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+</LinearLayout>

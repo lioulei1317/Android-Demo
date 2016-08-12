@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <!-- centerHorizontal水平中间 -->
+    <!-- centerVertical垂直中间 -->
+    <!-- background背景颜色 -->
+    <!-- textColor字体颜色 -->
+    <!-- textSize字体大小 -->
+    <!-- layout_margin外边距 -->
+    <!-- below在id下面、toRightOf在id右边 -->
+    <!-- alignBaseline与id的中线对齐 -->
+    <!-- ems编辑框输入字符限制 -->
+
+    <TextView
+        android:id="@+id/xdbjyhm0001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/yonghuming"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/xdbjmm0001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/xdbjyhm0001"
+        android:layout_marginTop="230dp"
+        android:text="@string/yonghumima"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/xdbjyhmbjk0001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/xdbjyhm0001"
+        android:layout_toRightOf="@id/xdbjyhm0001"
+        android:ems="10"
+        android:hint="请输入用户名" 
+         />
+
+    <EditText
+        android:id="@+id/xdbjmmbjk0001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/xdbjmm0001"
+        android:layout_alignLeft="@id/xdbjyhmbjk0001"
+        android:layout_toRightOf="@id/xdbjmm0001"
+        android:ems="10" 
+        android:hint="请输入密码"
+        />
+
+    <Button
+        android:id="@+id/xdbjdlkbun0001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="200dp"
+        android:text="@string/login"
+        android:textSize="30sp" />
+    <Button
+        android:id="@+id/xdbjfhbun0001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="190dp"
+        android:layout_marginBottom="100dp"
+        android:text="@string/fanhui003"
+        android:textSize="30sp" />
+     <Button
+        android:id="@+id/xdbjzcbun0001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="90dp"
+        android:layout_marginBottom="100dp"
+        android:text="@string/zhuce"
+        android:textSize="30sp" />
+
+</RelativeLayout>

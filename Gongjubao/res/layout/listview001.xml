@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <!-- android:footerDividersEnabled="true"宽度和高度都必须占满父类 -->
+   <ListView 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:divider="#00f"
+       android:dividerHeight="2px"
+       android:entries="@array/books"
+       android:footerDividersEnabled="true"
+       
+       ></ListView>
+
+</RelativeLayout>

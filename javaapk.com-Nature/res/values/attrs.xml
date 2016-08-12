@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomAudioIcon">
+        <attr name="type">
+            <enum name="start" value="0" />
+            <enum name="forward" value="1" />
+            <enum name="backward" value="2" />
+            <enum name="exit" value="3" />
+            <enum name="mode" value="4" />
+        </attr>
+        <attr name="color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="roundedimageview">
+        <attr name="border_thickness" format="dimension" />
+        <attr name="border_inside_color" format="color" />
+        <attr name="border_outside_color" format="color"></attr>
+    </declare-styleable>
+
+</resources>

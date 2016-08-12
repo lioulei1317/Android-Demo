@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Activity01" >
+
+    <!-- paddingBottom、paddingLeft、paddingRight、paddingTop设置页面边距 -->
+    <!-- 文本框TextView -->
+    <!-- 编辑框EditText -->
+    <!-- 按键Button -->
+    <!-- width和height控制文本框宽和高 自己设值为：00dp -->
+    <!-- wrap_content包裹文字自身大小 -->
+    <!-- match_parent占满界面空间 -->
+    <!-- textSize控制文字大小 00sp -->
+    <!-- LinearLayout线性布局  orientation布局排列：水平排列和垂直排列 horizontal、vertical -->
+
+    <TextView
+        android:id="@+id/yhm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/yhm_sr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/mima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/mima_sr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/denglu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginRight="110dp"
+        android:text="@string/login" />
+
+</LinearLayout>

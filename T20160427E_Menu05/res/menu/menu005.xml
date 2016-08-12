@@ -1,0 +1,59 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<!-- 字体大小 -->
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="字体大小">
+        <menu>
+            <group android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/FONT_10"
+                    android:title="10号字体"/>
+                <item
+                    android:id="@+id/FONT_12"
+                    android:title="12号字体"/>
+                <item
+                    android:id="@+id/FONT_14"
+                    android:title="14号字体"/>
+                <item
+                    android:id="@+id/FONT_16"
+                    android:title="16号字体"/>
+                <item
+                    android:id="@+id/FONT_18"
+                    android:title="18号字体"/>
+            </group>
+        </menu>
+    </item>
+   <!--  普通菜单项  -->
+    <item
+        android:id="@+id/PLAIN_ITEM"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="普通菜单项"/>
+       
+    <!-- 字体颜色 -->
+
+		<item
+		android:id="@+id/action_settings2"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="字体颜色">
+        <menu>
+            <group android:checkableBehavior="single" >
+                  <item
+                    android:id="@+id/FONT_RED"
+                    android:title="红色"/>
+                  <item
+                    android:id="@+id/FONT_GREEN"
+                    android:title="绿色"/>
+                  <item
+                    android:id="@+id/FONT_BLUE"
+                    android:title="蓝色"/>
+            </group>
+        </menu>
+    </item>
+    
+ 
+</menu>

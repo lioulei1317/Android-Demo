@@ -1,0 +1,71 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="-5dp" >
+
+            <Gallery
+                android:id="@+id/fruit_gallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:unselectedAlpha="0.0" />
+
+            <RadioGroup
+                android:id="@+id/group1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/fruit_gallery"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="#55999999"
+                android:orientation="horizontal"
+                android:paddingRight="10dp" >
+
+                <RadioButton
+                    android:id="@+id/rad1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:button="@drawable/btn_dot_selector"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:id="@+id/rad2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:button="@drawable/btn_dot_selector" />
+
+                <RadioButton
+                    android:id="@+id/rad3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:button="@drawable/btn_dot_selector" />
+
+                <RadioButton
+                    android:id="@+id/rad4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:button="@drawable/btn_dot_selector" />
+            </RadioGroup>
+        </RelativeLayout>
+
+        <com.example.kaoshi03.mylist
+            android:id="@+id/listview001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="2dp" >
+        </com.example.kaoshi03.mylist>
+    </LinearLayout>
+
+</ScrollView>

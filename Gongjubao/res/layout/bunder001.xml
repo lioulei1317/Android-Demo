@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Bunder001" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="请输入您的注册信息" 
+        android:textSize="22dp"
+        android:textColor="#2894FF"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/bundertv001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户名：" />
+
+        <EditText
+            android:id="@+id/bunderet001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入用户名" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/bundertv002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密     码：" />
+
+        <EditText
+            android:id="@+id/bunderet002"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入密码" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/bunderrgp001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="性别：" />
+
+        <RadioButton
+            android:id="@+id/bunderrbtn001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="男" />
+
+        <RadioButton
+            android:id="@+id/bunderrbtn002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女" />
+    </RadioGroup>
+    <Button 
+        android:id="@+id/bunderbtn001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        />
+
+</LinearLayout>

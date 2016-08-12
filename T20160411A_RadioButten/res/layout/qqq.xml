@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 定义第一个表格 指定第二列允许被收缩，第三列允许被拉伸 -->
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="1"
+        android:stretchColumns="2" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="独占一行" />
+
+        <TableRow>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="普通" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="允許被收縮aaaa" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="允許被拉伸aaaaa" />
+        </TableRow>
+    </TableLayout>
+<!-- 定义第二个表指定第二列百隐藏 --><TableLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:collapseColumns="1">
+    <TableRow >
+         <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3" />
+    </TableRow>
+</TableLayout>
+<!-- 指定第二列横跨两列 -->
+<TableLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1">
+    <TableRow >
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="普通" /> 
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="填满剩余空白" /> 
+        
+    </TableRow>
+</TableLayout>
+</LinearLayout>

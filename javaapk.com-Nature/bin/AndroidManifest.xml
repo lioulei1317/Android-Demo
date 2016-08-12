@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nature"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iuni"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.best.heart.MusicListActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="com.best.heart.DetailActivity" />
+
+        <service android:name="com.example.nature.NatureService" >
+        </service>
+
+        <activity android:name="com.best.heart.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.best.heart.IndexActivity" >
+        </activity>
+        <activity android:name="com.best.heart.AddActivity" >
+        </activity>
+        <activity android:name="com.best.heart.SongerListActivity" >
+        </activity>
+        <activity android:name="com.best.heart.CollectActivity" >
+        </activity>
+        <activity android:name="com.best.heart.PlayingActivity" >
+        </activity>
+
+        <service android:name="com.best.heart.service.NatureService" >
+        </service>
+    </application>
+
+</manifest>

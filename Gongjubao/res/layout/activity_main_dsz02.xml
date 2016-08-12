@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/beijinga">
+     <Button
+        android:id="@+id/Fragmentlifebtn01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="Fragmentlife"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/ViewPagerbtn02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="ViewPager"
+        android:textSize="22sp" />
+    <Button
+        android:id="@+id/ActionBar_Tabbtn003"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="ActionBar_Tab"
+        android:textSize="22sp" />
+    <Button
+        android:id="@+id/ActionBar_DropDown004"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="ActionBar_DropDown"
+        android:textSize="22sp" />
+    <Button
+        android:id="@+id/Intentbtn005"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="Intent"
+        android:textSize="22sp" />
+    <Button
+        android:id="@+id/Resourcesbtn006"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="Resources"
+        android:textSize="22sp" />
+    <Button
+        android:id="@+id/Stylebtn007"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="Style"
+        android:textSize="22sp" />
+    <Button
+        android:id="@+id/Framebtn008"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="Frame"
+        android:textSize="22sp" />
+
+   
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第二页"
+            android:textSize="20dp" 
+            android:textColor="#0f0"/>
+
+        <Button
+            android:id="@+id/yyya01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+       		android:layout_marginLeft="80dp"
+            android:background="@drawable/anjian01"
+            android:text="下一页"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+</LinearLayout>

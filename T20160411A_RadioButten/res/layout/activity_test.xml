@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".TestActivity" >
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:background="#00f"
+        android:text="@string/username"
+        android:textColor="#0f0" />
+    <!-- layout_below想在谁的下面就引用谁的id -->
+    <!-- ems编辑框最多显示多少个字符 -->
+
+    <EditText
+        android:id="@+id/eu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv1"
+        android:layout_toRightOf="@id/tv1"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="140dp"
+        android:background="#00f"
+        android:text="@string/password"
+        android:textColor="#0f0" />
+
+    <EditText
+        android:id="@+id/eu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv2"
+        android:layout_alignLeft="@id/eu1"
+        android:layout_toRightOf="@id/tv2"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:text="@string/login" />
+
+</RelativeLayout>

@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gongjibao"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+    <!-- AsyncTask001 网络授权 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name1"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.gongjibao.ActionBar_DropDown001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.ActionBar_DropDown002"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.ActionBar_Tab001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.ActionBar_Tab002"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.ActionBar001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.ActionBar002"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.ActionHome001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.ActionHome002"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.ActionHome003"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.ActionView001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.ActivityForResult001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.ActivityForResult002"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.AlertDialog001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.AsyncTask001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.AutoCompleteTextView001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.BaseAdapter001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.BaseAdapter002_1"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.BaseAdapter002_2"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.BaseAdapter003"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.BaseAdapter004"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Bunder001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Bunder002"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Bunder003"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Configuration001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.ContextMenu001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Danxuananniu001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.DatePickerDialog001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.DrawView001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.DrawView002"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Fragment001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Fragment002_BookContent"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Fragment003_Book_ListFragment"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Fragment004_Desc_Fragment"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Fragmentlift001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Fragmentlift002"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Fragmentlift003_lifecycleFragment"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Fragmentlift004"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Frame_Blast001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Frame001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Framelayout001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Fuxuananniu001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Gallery001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Gallery002"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.GridView001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Handler001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Handler002"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.HoverDialog001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.HoverDialog002"
+            android:label="2015年1月21日版本更新公告"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Intent001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Intent002"
+            android:label="@string/app_name" >
+            <intent-filter>
+
+                <!-- 指定该Activity能响应action为指定字符串的Intent -->
+                <action android:name="one" />
+                <!-- 指定该Activity能响应category为指定字符串的Intent -->
+                <category android:name="two" />
+                <!-- 指定该Activity能响应category为android.intent.category.DEFAULT的Intent -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Jindutiao001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Linearlayout001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Linearlayout001dljm"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Linearlayout001jianpan"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Linearlayout001jsq"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.ListActivity001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.ListView001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.ListView002"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.ListViewAdapter001_01"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.ListViewAdapter001_02"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.ListViewAdapter001_03"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.ListViewAdapter001_04"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.MainActivity01"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.MainActivity02"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.MainActivity03"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.MainActivity04"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.MainActivity05"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.MainActivity06"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.MainActivity2"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.MainActivity_dsz01"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.MainActivity_dsz02"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.MainActivity_dsz03"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Menu001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Menu002"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Menu003"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Menu004"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Menu005"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Notification001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Notification002"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Pailie001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Paomadeng001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.ProgressDialog001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.ProgressDialog002"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Ralativelayout001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Ralativelayout001dljm"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Ralativelayout001jianpan"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Ralativelayout001zcjm"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Resources001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.ScrollView001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Shezhibiankuangyanse001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Shizhong001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.SimpleAdapter001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.SimpleAdapter002"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Spinner001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Spinner002"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Spinner003"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Style001"
+            android:label="@string/app_name"
+            android:theme="@style/CarTheme" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.TabHost001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Tablelayout001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Tishikuang001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Toumingdu001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Tween001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.ViewPager001"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.ViewPager002_adapter"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.ViewPager003_FristFragment"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.ViewPager004_SecondFragment"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.ViewPager005_ThridFragment"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.ViewPager006_FourFragment"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao.Xingjitiao001"
+            android:label="@string/app_name" >
+        </activity>
+
+        <!-- 第10章 -->
+        <activity
+            android:name="com.example.gongjibao10.BindService001"
+            android:label="@string/app_name" >
+        </activity>
+        <service android:name="com.example.gongjibao10.BindService002" >
+            <intent-filter >
+                <action android:name="SERVICE"/>
+            </intent-filter>
+        </service>
+        <activity
+            android:name="com.example.gongjibao10.MainAcivity10_01"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.gongjibao10.Service001"
+            android:label="@string/app_name" >
+        </activity>
+
+         <service android:name="com.example.gongjibao10.Service002" >
+            <intent-filter>
+                <!-- 为该Service组件的intent-filter配置action -->
+                <action android:name="SERVICE" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/frd001"
+        android:text="带边框的文本框"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/yuanjiao001"
+        android:text="圆角边框，渐变背景"
+        android:textSize="24sp" />
+    <Button 
+        android:id="@+id/szbkfhbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        />
+
+</LinearLayout>

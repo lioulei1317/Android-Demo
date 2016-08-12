@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/qianlanse2"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <TextView
+        android:id="@+id/weather_riqi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="日期:"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/weather_xingqi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="20dp"
+        android:text="星期:"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="165dp"
+        android:layout_marginTop="20dp"
+        android:text="城市:"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/weather_diqu"
+        android:layout_width="50dp"
+        android:layout_height="28dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="110dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/zdy_editext2"
+        android:singleLine="true"
+        android:hint="城市"
+        android:textColor="#FFFFFF"
+        android:textCursorDrawable="@null" />
+
+    <Button
+        android:id="@+id/weather_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/weather_diqu"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/anjian03"
+        android:text="确定"
+        android:textColor="#CECEFF" />
+
+    <TextView
+        android:id="@+id/jintiantqqktext01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:id="@+id/riqitext02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:id="@+id/weather_wendu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:text="温度:"
+        android:textColor="#FFFFFF"
+        android:textSize="55dp" />
+
+    <ImageView
+        android:id="@+id/weather_tianqitubiao"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="90dp" />
+
+    <TextView
+        android:id="@+id/weather_tianqi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="185dp"
+        android:text="天气"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/wendutext03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="80dp" />
+
+    <TextView
+        android:id="@+id/fengxiangtext05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="130dp" />
+
+   
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="120dp"
+        android:text="空气质量:"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/weather_kongqizhiliang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="120dp"
+        android:text="空:"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/weather_shidu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:text="湿度"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+    <ImageView 
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="255dp"
+        android:background="@drawable/qing"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="260dp"
+        android:text="日落"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/weather_riluo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="275dp"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp" />
+
+    <HorizontalScrollView
+        android:id="@+id/hs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:fadeScrollbars="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/http_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <GridView
+                android:id="@+id/http_gridview01"
+                android:layout_width="800dp"
+                android:layout_height="wrap_content"
+                android:background="#FFFAFA"
+                android:numColumns="9" >
+            </GridView>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>

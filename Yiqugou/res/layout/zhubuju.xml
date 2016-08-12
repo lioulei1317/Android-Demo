@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hyman="http://schemas.android.com/apk/res/com.example.yiqugou"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.imooc.slidingmenu.SlidingMenu
+        android:id="@+id/id_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/img_frame_background"
+        android:scrollbars="none"
+        hyman:rightPadding="100dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <include layout="@layout/left_menu" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <include layout="@layout/home_page" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.imooc.slidingmenu.SlidingMenu>
+
+</RelativeLayout>

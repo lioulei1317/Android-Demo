@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+   <!-- 模拟时钟
+   android:dial="更换表盘"
+   android:hand_minute=""更换分针
+   android:hand_hour=""更换时针
+    -->
+   <AnalogClock 
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" 
+       />
+   <!-- 数字时钟 -->
+   <DigitalClock 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:drawableRight="@drawable/ic_launcher"
+       android:textSize="20sp"
+       android:textColor="#0f0"
+       
+       />
+   
+   <!-- 日期选择器 -->
+  
+   <TextView 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="选择日期与时间"
+       />
+    <!-- android:startYear="2000"起始年限
+         android:endYear="2016" 终止年限
+         android:calendarViewShown="true"是否显示日历视图组件
+         android:spinnersShown="true"是否显示spinner组件
+         -->
+   <DatePicker 
+       android:id="@+id/datepicker"
+       android:layout_width="wrap_content"
+       android:layout_height="200dp"
+       android:layout_gravity="center_horizontal"
+       android:startYear="1993"
+       android:endYear="2017"
+       android:calendarViewShown="true"
+       android:spinnersShown="true"
+       />
+   
+   
+   <TimePicker 
+       android:id="@+id/timepicker"
+       android:layout_width="wrap_content"
+       android:layout_height="100dp"
+       android:layout_gravity="center_horizontal"
+       />
+   <!-- android:cursorVisible="false"设置是否显示光标
+  		android:editable="false" 设置该编辑框是否可以编辑 -->
+    <EditText 
+        android:id="@+id/edt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cursorVisible="false"
+        android:editable="false"
+        />
+
+</LinearLayout>

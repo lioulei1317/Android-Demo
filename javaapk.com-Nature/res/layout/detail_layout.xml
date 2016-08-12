@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.example.nature"
+   	xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="330dip"
+        android:layout_weight="100"
+        android:background="@drawable/bg2" >
+
+        <!-- 上部头信息star -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#009E73"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="2"
+                android:background="@null"
+                android:onClick="back"
+                android:src="@drawable/back" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/musicname"
+                    android:layout_width="200dip"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:text="歌名"
+                    android:textColor="#FFF"
+                    android:textSize="15dip" />
+
+                <TextView
+                    android:id="@+id/singer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="歌手"
+                    android:textColor="#FFF"
+                    android:textSize="10dip" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="32dip"
+                android:layout_height="32dip"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="2"
+                android:background="@null"
+                android:src="@drawable/fenxiang" />
+        </LinearLayout>
+
+        <com.best.heart.tool.RoundImageView
+            android:id="@+id/infoOperating"
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/girl"
+            imagecontrol:border_inside_color="#fff7f2e9"
+            imagecontrol:border_outside_color="#ffd5d1c8"
+            imagecontrol:border_thickness="2dp" />
+        <!-- 上部头信息end   -->
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"
+        android:background="#009E73"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/llProgress"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvTimeElapsed"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="00:00" />
+
+            <SeekBar
+                android:id="@+id/pbDuration"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dip"
+                android:layout_height="17dip"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_weight="6"
+                android:maxHeight="1dip"
+                android:minHeight="1dip"
+                android:progressDrawable="@drawable/progress_style"
+                android:secondaryProgress="0"
+                android:thumb="@drawable/check_box_checked"
+                android:thumbOffset="0dip" />
+
+            <TextView
+                android:id="@+id/tvDuration"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_weight="1"
+                android:text="00:00" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="2"
+            android:background="#009E73"
+            android:orientation="horizontal" >
+
+            <com.best.heart.tool.CustomAudioIcon
+                android:id="@+id/btnMode"
+                android:layout_width="0dip"
+                android:layout_height="87dp"
+                android:layout_weight="0.99"
+                custom:type="mode"
+                custom:color="#66DD22" />
+
+            <com.best.heart.tool.CustomAudioIcon
+                android:id="@+id/btnPrevious"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                custom:type="backward"
+                custom:color="#66DD22" />
+
+            <com.best.heart.tool.CustomAudioIcon
+                android:id="@+id/btnStartStop"
+                android:layout_width="0dip"
+                android:layout_height="100dp"
+                android:layout_weight="1.00"
+                custom:type="start"
+                custom:color="#66DD22" />
+
+            <com.best.heart.tool.CustomAudioIcon
+                android:id="@+id/btnNext"
+                android:layout_width="0dip"
+                android:layout_height="82dp"
+                android:layout_weight="1.00"
+                custom:type="forward"
+                custom:color="#66DD22" />
+
+            <com.best.heart.tool.CustomAudioIcon
+                android:id="@+id/btnExit"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                custom:type="exit"
+                custom:color="#66DD22" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

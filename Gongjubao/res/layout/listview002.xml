@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!-- 设置使用红色分隔条 -->
+    <!--设置分割线，headerDividersEnabled头顶是否需要分割线，
+    			footerDividersEnabled尾部是否需要分割线   -->
+    <ListView 
+        android:id="@+id/list1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#f00"
+        android:dividerHeight="2px"
+        android:headerDividersEnabled="false"
+        />
+    
+   <!--  设置使用绿色分隔条 --> 
+    <ListView 
+        android:id="@+id/list2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#0f0"
+        android:dividerHeight="2px"
+        android:headerDividersEnabled="false"
+        />
+
+</LinearLayout>

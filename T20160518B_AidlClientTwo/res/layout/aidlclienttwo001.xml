@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/getbtn002"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="获取远程Service的状态" />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请输入用户名"
+        />
+    <EditText 
+        android:id="@+id/personedt002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <ListView 
+        android:id="@+id/showlistv002"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></ListView>
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/beijinga">
+
+    <Button
+        android:id="@+id/szbkysbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_marginTop="10dp"
+        android:text="设置边框颜色"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/tmdbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_marginTop="10dp"
+        android:text="透明度、单选、图片翻页"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/szbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_marginTop="10dp"
+        android:text="时钟"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/jdtbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_marginTop="10dp"
+        android:text="ProgressBar:进度条"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/xjtbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_marginTop="10dp"
+        android:text="星级条"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/tskbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_marginTop="10dp"
+        android:text="提示框"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/pailiebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_marginTop="10dp"
+        android:text="ToggleButton：状态开关按钮"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/fgtbtn02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_marginTop="10dp"
+        android:text="改变分隔条,基于数组的ListView"
+        android:textSize="22sp" />
+
+    
+      <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第二页"
+            android:textSize="20dp" 
+            android:textColor="#0f0"/>
+
+        <Button
+            android:id="@+id/cjmxyy01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+       		android:layout_marginLeft="80dp"
+            android:background="@drawable/anjian01"
+            android:text="下一页"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+</LinearLayout>

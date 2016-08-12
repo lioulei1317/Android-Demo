@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/beijinga">
+      <Button
+        android:id="@+id/djiuzbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:text="@string/dijiuzhang"
+        android:textSize="22sp" />
+      <Button
+        android:id="@+id/dshizbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="第10章 Service与BroadcastReceiver"
+        android:textSize="20sp" />
+      <Button
+        android:id="@+id/dshiyizbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/dishiyizhang"
+        android:textSize="22sp" />
+      <Button
+        android:id="@+id/dshierzbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/dishierzhang"
+        android:textSize="22sp" />
+      <Button
+        android:id="@+id/dshisanzbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/dishisanzhang"
+        android:textSize="22sp" />
+      <Button
+        android:id="@+id/dshisizbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/dishisizhang"
+        android:textSize="22sp" />
+      <Button
+        android:id="@+id/dshiwuzbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/dishiwuzhang"
+        android:textSize="22sp" />
+        <Button
+        android:id="@+id/dshiliuzbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/dishiliuzhang"
+        android:textSize="22sp" />
+        <Button
+        android:id="@+id/dshiqizbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/dishiqizhang"
+        android:textSize="22sp" />
+     
+           <Button
+        android:id="@+id/zjmsyy1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/zjmshangyiye1" />
+         
+     
+   
+
+</LinearLayout>

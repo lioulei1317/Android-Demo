@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+     <TextView 
+        android:id="@+id/list2_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        />
+    <TextView 
+        android:id="@+id/list2_shuju"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/list2_name"
+        android:layout_below="@id/list2_name"
+        android:text="shuju"
+        />
+    <TextView 
+        android:id="@+id/list2_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/list2_name"
+        android:layout_below="@id/list2_shuju"
+        android:text="time"
+        />
+    <TextView 
+        android:id="@+id/list2_pinglun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/list2_name"
+        android:layout_below="@id/list2_time"
+        android:text="pinglun"
+        />
+    <ImageView 
+        android:id="@+id/list2_image2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentEnd="true"
+        />
+
+</RelativeLayout>

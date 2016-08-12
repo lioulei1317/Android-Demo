@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/beijinga"
+     >
+
+    <TextView
+        android:id="@+id/biaoti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/androidkf"
+        android:textSize="27sp" />
+
+    <Button
+        android:id="@+id/dyizbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="@string/diyizhang"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/derzbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_marginTop="10dp"
+        android:text="@string/dierzhang"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/dsanzbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="第3章 事件处理 、第4章 深入理解Activity与Fragment"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/dwuzbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/diwuzhang"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/dliuzbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/diliuzhang"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/dqizbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/diqizhang"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/dbazbun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/dibazhang"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/zjmxyy1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anjian01"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/zjmxiayiye1" />
+
+</LinearLayout>

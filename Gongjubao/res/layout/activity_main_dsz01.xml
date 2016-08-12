@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/beijinga">
+     <Button
+        android:id="@+id/DrawViewbtn01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="DrawView：跟随手指的小球"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/Configurationbtn02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="Configuration：获取手机配置信息"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/Handerbtn001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="Handler：消息传递机制"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/Handerbtn002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="Looper：传递机制"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/Bunderbtn003"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="Bunder：数据包"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/AsyncTaskbtn004"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="AsyncTask:异步任务"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/ActivityForResult005"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="ActivityForResult"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/Fragmentbtn006"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/anjian01"
+        android:text="Fragment"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第一页"
+            android:textSize="20dp" 
+            android:textColor="#0f0"/>
+
+        <Button
+            android:id="@+id/cmxyy01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+       		android:layout_marginLeft="80dp"
+            android:background="@drawable/anjian01"
+            android:text="下一页"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+</LinearLayout>

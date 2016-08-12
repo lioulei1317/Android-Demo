@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BindService001" >
+
+    <Button
+        android:id="@+id/bindservice001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="绑定Service" />
+
+    <Button
+        android:id="@+id/bindservice002"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="解除绑定" />
+
+    <Button
+        android:id="@+id/bindservice003"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取Service状态" />
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <!-- 在文本框结尾插入一个图片 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_launcher"
+        android:text="@string/app_name"
+        android:textSize="22sp" />
+    <!--
+     android:singleLine="true" 
+             文本框是否为单行显示 设置 true  文本框不会换行
+     android:textAllCaps="true"
+            文本所有字母显示为大写字母
+     android:ellipsize="marquee" 跑马灯型的显示(必须和以下两个一起使用)
+     android:focusable="true"  获取手机屏幕焦点
+     android:focusableInTouchMode="true"获取触屏手机屏幕焦点
+     android:marqueeRepeatLimit="marquee_forever"  循环次数
+     
+    -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="asfsfvasdavgsadfbvasdfbdfasbhdesfbdsgf" 
+        android:singleLine="true"
+        android:textSize="22sp"
+        android:textAllCaps="true"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        />
+    
+    <!-- android:autoLink="phone|email"   对电话，邮件加链接，可以变成蓝色的链接 -->
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:autoLink="phone|email"
+        android:text="电话号码：18164453435,邮件：476660218@qq.com"/>
+    <!-- android:shadowColor="#0000ff"阴影的颜色
+        android:shadowDx="10.0"    水平偏移
+        android:shadowDy="3.0"     垂直偏移
+        android:shadowRadius="3.0"  阴影模糊程度，值越大阴影约模糊-->  
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="讲课费"
+        android:textSize="22sp"
+        android:shadowColor="#0000ff"
+        android:shadowDx="10.0"
+        android:shadowDy="3.0"
+        android:shadowRadius="3.0"/>
+    <!-- 测试密码框 -->
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:password="true"/>
+    <!-- 可勾选的文本 -->
+    <CheckedTextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="可勾选的文本"
+        android:checkMark="@drawable/ic_launcher"/>
+    
+
+</LinearLayout>

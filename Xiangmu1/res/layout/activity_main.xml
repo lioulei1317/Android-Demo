@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/xiangmubut001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@drawable/anjian01"
+        android:onClick="send"
+        android:text="OK" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="5dp" >
+
+        <Gallery
+            android:id="@+id/fruit_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:horizontalSpacing="15dp"
+            android:unselectedAlpha="9.0"
+            android:verticalSpacing="15dp" />
+
+        <RadioGroup
+            android:id="@+id/group1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/fruit_gallery"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="#55999999"
+            android:orientation="horizontal"
+            android:paddingRight="10dp" >
+
+            <RadioButton
+                android:id="@+id/rad1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:button="@drawable/btn_dot_selector"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/rad2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:button="@drawable/btn_dot_selector" />
+
+            <RadioButton
+                android:id="@+id/rad3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:button="@drawable/btn_dot_selector" />
+
+            <RadioButton
+                android:id="@+id/rad4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:button="@drawable/btn_dot_selector" />
+        </RadioGroup>
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="2"
+        android:verticalSpacing="10dp" />
+
+    <com.example.xiangmu1.other
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="中新网5月3日电 针对网友反映的武汉地铁四号线一辆列车在运行中数次出现火花并传出疑似爆炸声一事，武汉市政府应急办官方微博发布消息称，列车受流器与接触轨拉弧打火，引起供电设备保护性跳闸，跳闸后设备自动复位成功，列车继续向梅苑小区站前行，在前行过程中又重复发此类现象，列车在梅苑小区站清客退出运行。"
+        android:textAllCaps="true"
+        android:textSize="22sp" />
+
+</LinearLayout>

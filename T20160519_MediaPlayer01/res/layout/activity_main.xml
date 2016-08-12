@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/play" />
+
+    <ImageButton
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/stop" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <!--
+android:singleLine=true 表示使用单行文字，多行文字也就无所谓使用Marquee效果了。
+•android:marqueeRepeatLimit，设置走马灯滚动的次数。
+•android:ellipsize，设置了文字过长时如何切断文字，可以有none, start,middle, end, 如果使用走马灯效果则设为marquee.
+•android:focusable，Android的缺省行为是在控件获得Focus时才会显示走马灯效果
+        -->
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:textColor="#00ff00"
+            android:textSize="25px" />
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textSize="15px" />
+    </LinearLayout>
+
+</LinearLayout>

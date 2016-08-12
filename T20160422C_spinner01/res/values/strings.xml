@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">T20160422C</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="word1">哈哈!</string>
+    <string name="world2">请选择以下美女：</string>
+
+</resources>

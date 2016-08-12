@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <RadioGroup 
+        android:id="@+id/radiogroup_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/tabbar_background"
+        >
+        <RadioButton 
+            android:id="@+id/radbt001"
+            style="@style/rb_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:drawableTop="@drawable/btn_homechecked_selector"
+            android:text="首页"
+            />
+        <RadioButton 
+            android:id="@+id/radbt002"
+            style="@style/rb_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+             android:drawableTop="@drawable/btn_cllectchecked_selector"
+            android:text="收藏"
+            />
+        <RadioButton 
+            android:id="@+id/radbt003"
+            style="@style/rb_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+             android:drawableTop="@drawable/btn_weibochecked_selector"
+            android:text="微博"
+            />
+        <RadioButton 
+            android:id="@+id/radbt004"
+            style="@style/rb_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+             android:drawableTop="@drawable/btn_serchchecked_selector"
+            android:text="搜索"
+            />
+      
+        
+    </RadioGroup>
+
+</LinearLayout>

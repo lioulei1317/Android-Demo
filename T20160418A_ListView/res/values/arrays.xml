@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="books">
+        <item >混世魔王</item>
+        <item >老夫子</item>
+        <item >乌龙院</item>
+        <item >斗破苍穹</item>
+        <item >神墓</item>
+        <item >完美世界</item>
+        <item >盘龙</item>
+        <item >遮天</item>
+        <item >星辰变</item>
+    </string-array>
+</resources>

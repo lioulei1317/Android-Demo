@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/grid_riqi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="week"
+        android:textColor="#FFFAFA" />
+
+    <TextView
+        android:id="@+id/grid_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="week"
+        android:textColor="#FFFAFA" />
+
+    <ImageView
+        android:id="@+id/grid_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/grid_tianqi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="25dp"
+        android:text="temperature"
+        android:textColor="#FFFAFA" />
+    <TextView
+        android:id="@+id/grid_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="25dp"
+        android:text="temperature"
+        android:textColor="#FFFAFA" />
+
+</LinearLayout>
